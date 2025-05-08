@@ -2,18 +2,14 @@ import java.util.Scanner;
 public class Calculadora{
     public static void main (String[] args){
         Scanner almacenar = new Scanner(System.in);
-            System.out.println("escoge tu opcion");
-            System.out.println("1.- Suma");
-            System.out.println("2.- Resta");
-            System.out.println("3.- Multiplicacion");
-            System.out.println("4.- division");
-            int opc = almacenar.nextInt();
+            System.out.println("Ingresa tu primer numero");
+            int numero1 = almacenar.nextInt();
+            
+            System.out.println("Ingresa tu segundo numero");
+            int numero2 = almacenar.nextInt();
 
-            switch (opc){
-                case 1:
-                    
-                    break;
-            }
+             System.out.println("tu reusltado es"+ resultado);
+            int resultado= numero1+numero2;
             
     }
 }
